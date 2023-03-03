@@ -1,0 +1,146 @@
+{
+  "menu": [
+    {
+      "foodItemId": 1,
+      "foodName": "Daal Makhani",
+      "foodAvailability": true,
+      "foodDescription": "some text here just for the refrence",
+      "foodPrice": 150,
+      "id": 1
+    },
+    {
+      "foodItemId": 2,
+      "foodName": "Biryani",
+      "foodAvailability": true,
+      "foodDescription": "some text here just for the refrence",
+      "foodPrice": 250,
+      "id": 2
+    },
+    {
+      "foodItemId": 3,
+      "foodName": "Gulab Jamun",
+      "foodAvailability": true,
+      "foodDescription": "some text here just for the refrence",
+      "foodPrice": 150,
+      "id": 3
+    },
+    {
+      "foodItemId": 4,
+      "foodName": "Kesar Kheer",
+      "foodAvailability": true,
+      "foodDescription": "some text here just for the refrence",
+      "foodPrice": 250,
+      "id": 4
+    },
+    {
+      "foodItemId": 5,
+      "foodName": "Masala Lemonade",
+      "foodAvailability": true,
+      "foodDescription": "some text here just for the refrence",
+      "foodPrice": 150,
+      "id": 5
+    },
+    {
+      "foodItemId": 6,
+      "foodName": "Kadi Chawal",
+      "foodAvailability": true,
+      "foodDescription": "some text here just for the refrence",
+      "foodPrice": 250,
+      "id": 6
+    },
+    {
+      "foodItemId": 7,
+      "foodName": "Rajma Chawal",
+      "foodAvailability": true,
+      "foodDescription": "some text here just for the refrence",
+      "foodPrice": 150,
+      "id": 7
+    },
+    {
+      "foodItemId": 8,
+      "foodName": "cholle Bhature",
+      "foodAvailability": true,
+      "foodDescription": "some text here just for the refrence",
+      "foodPrice": 250,
+      "id": 8
+    }
+  ],
+  "cart": [
+    {
+      "cartId": 1,
+      "quantity": 1,
+      "value": 1,
+      "emailId": " kartik@gmail.com",
+      "food": [
+        {
+          "foodItemId": 1,
+          "foodName": "Daal Makhani",
+          "foodAvailability": true,
+          "foodDescription": "some text here just for the refrence",
+          "foodSize": {
+            "small": 299,
+            "medium": 500,
+            "large": 700
+          },
+          "id": 1
+        }
+      ],
+      "id": 1
+    },
+    {
+      "cartId": 5,
+      "quantity": 1,
+      "value": 1,
+      "emailId": " kartik@gmail.com",
+      "food": [
+        {
+          "foodItemId": 5,
+          "foodName": "Masala Lemonade",
+          "foodAvailability": true,
+          "foodDescription": "some text here just for the refrence",
+          "foodSize": {
+            "small": 299,
+            "medium": 500,
+            "large": 700
+          },
+          "id": 5
+        }
+      ],
+      "id": 5
+    }
+  ],
+  "orderService": [
+    {
+      "emailId": "vikram@gmail.com",
+      "firstName": "Vikram",
+      "orderList": [
+        {
+          "foodItemId": 1,
+          "foodName": "Daal Makhani",
+          "foodAvailability": true,
+          "foodDescription": "some text here just for the refrence",
+          "foodSize": {
+            "small": 299,
+            "medium": 500,
+            "large": 700
+          },
+          "id": 1
+        },
+        {
+          "foodItemId": 5,
+          "foodName": "Masala Lemonade",
+          "foodAvailability": true,
+          "foodDescription": "some text here just for the refrence",
+          "foodSize": {
+            "small": 299,
+            "medium": 500,
+            "large": 700
+          },
+          "id": 5
+        }
+      ],
+      "orderValue": 598,
+      "id": 1
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+.FeedbackCard-container {
+    border: 2px solid #850E35;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px;
+    height: 150px;
+    width: 76%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.quote-end {
+    transform: rotate(180deg);
+}

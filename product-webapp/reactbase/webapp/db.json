@@ -1,0 +1,198 @@
+{"foodItem":[
+    {
+      "id": 1,
+      "foodPicture": "https://i.postimg.cc/L6fNQKSy/Subz-Vegetable-Biryani.jpg",
+      "foodName": "Veg Biryani",
+      "foodAvailability": true,
+      "foodPrice": 20,
+      "foodCategory": [
+        "Veg",
+        "Rice",
+        "Biryani"
+      ],
+      "foodSize": {
+        "small": 299,
+        "medium": 500,
+        "large": 700
+      },
+      "foodDescription": "biryani is a spiced mix of meat and rice, traditionally cooked over an open fire in a leather pot"
+    },
+    {
+      "id": 2,
+      "foodPicture": "https://i.postimg.cc/j2ydmdZq/maxresdefault.jpg",
+      "foodName": "Daal Makhani",
+      "foodAvailability": true,
+      "foodCategory": [
+        "Dal",
+        "Veg"
+      ],
+      "foodSize": {
+        "small": 299,
+        "medium": 500,
+        "large": 700
+      },
+      "foodPrice": 30,
+      "foodDescription": "Dal makhani (pronounced [daːl ˈmək.kʰə.ni]) is a dish originating in New Delhi, India. A relatively modern variation of traditional lentil dishes"
+    },
+    {
+      "id": 3,
+      "foodPicture": "https://i.postimg.cc/3xNQDxmy/photo.jpg",
+      "foodName": "Kadhi Chawal",
+      "foodAvailability": false,
+      "foodCategory": [
+        "Rice",
+        "Veg"
+      ],
+      "foodSize": {
+        "small": 299,
+        "medium": 500,
+        "large": 700
+      },
+      "foodPrice": 10,
+      "foodDescription": "Kadhi is prepared by mixing Curd, Besan (Chickpea Flour) and different spices. It is served with boiled rice and is very popular in Northern and Western States of India"
+    },
+    {
+      "id": 4,
+      "foodPicture": "https://i.postimg.cc/B6shHmkh/photo-1.jpg",
+      "foodName": "Rajma Chawal",
+      "foodAvailability":true,
+      "foodCategory": [
+        "Rice",
+        "Veg"
+      ],
+      "foodSize": {
+        "small": 299,
+        "medium": 500,
+        "large": 700
+      },
+      "foodPrice": 50,
+      "foodDescription": "Rajma chawal is a popular North Indian dish of red kidney beans (rajma in Hindi) simmered in a spicy, saucy stew filled with fragrant aromatics and spices. "
+    },
+    {
+      "id": 5,
+      "foodPicture": "https://i.postimg.cc/x8hyxqkx/f3.jpg",
+      "foodName": "Paratha",
+      "foodAvailability": true,
+      "foodCategory": [
+        "Veg",
+        "Paratha"
+      ],
+      "foodSize": {
+        "small": 299,
+        "medium": 500,
+        "large": 700
+      },
+      "subscriptionCategory":["SILVER"],
+      "foodPrice": 10,
+      "foodDescription": "Parathas are one of the most popular unleavened flatbreads in the Indian subcontinent,"
+    },
+    {
+      "id": 6,
+      "foodPicture": "https://i.postimg.cc/xdVgVsf0/Kadai-Paneer-Recipe-Restaurant-style.jpg",
+      "foodName": "Kadai Paneer",
+      "foodAvailability": true,
+      "foodCategory": [
+        "Paneer",
+        "Veg"
+      ],
+      "foodSize": {
+        "small": 299,
+        "medium": 500,
+        "large": 700
+      },"subscriptionCategory":["SILVER"],
+      "foodPrice": 60,
+      "foodDescription": "Kadai paneer is made with kadai masala, bell peppers, tomatoes, kasuri methi & paneer"
+    },
+    {
+      "id": 7,
+      "foodPicture": "https://i.postimg.cc/ryHmp3vN/54308405.jpg",
+      "foodName": "Chicken Biryani",
+      "foodAvailability": true,
+      "foodCategory": [
+        "Rice",
+        "Biryani",
+        "NonVeg",
+        "Chicken"
+      ],
+      "foodSize": {
+        "small": 299,
+        "medium": 500,
+        "large": 700
+      },"subscriptionCategory":["SILVER"],
+      "foodPrice": 20,
+      "foodDescription": "Chicken Biryani is a savory chicken and rice dish that includes layers of chicken, rice, and aromatics that are steamed togethe"
+    },
+    {
+      "id": 8,
+      "foodPicture": "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg",
+      "foodName": "Pan Cake",
+      "foodAvailability": true,
+      "foodCategory": [
+        "Dessert",
+        "Veg"
+      ],
+      "foodSize": {
+        "small": 299,
+        "medium": 500,
+        "large": 700
+      },"subscriptionCategory":["SILVER"],
+      "foodPrice": 20,
+      "foodDescription": "Chicken Biryani is a savory chicken and rice dish that includes layers of chicken, rice, and aromatics that are steamed togethe"
+    },
+    {
+      "id": 9,
+      "foodPicture": "https://images.pexels.com/photos/2144112/pexels-photo-2144112.jpeg",
+      "foodName": "Pastry",
+      "foodAvailability": true,
+      "foodCategory": [
+        "Dessert",
+        "Veg"
+      ],"subscriptionCategory":["SILVER"],
+      "foodSize": {
+        "small": 299,
+        "medium": 500,
+        "large": 700
+      },
+      "foodPrice": 100,
+      "foodDescription": "Chicken Biryani is a savory chicken and rice dish that includes layers of chicken, rice, and aromatics that are steamed togethe"
+    },
+    
+    { 
+      "id": 10,
+      "foodPicture": "https://images.pexels.com/photos/2693447/pexels-photo-2693447.jpeg",
+      "foodName": "Pie",
+      "foodAvailability": true,
+      "foodCategory": [
+        "Dessert",
+        "Veg"
+      ],
+      "foodSize": {
+        "small": 299,
+        "medium": 500,
+        "large": 700
+      },"subscriptionCategory":["SILVER"],
+      "foodPrice": 600,
+      "foodDescription": "Chicken Biryani is a savory chicken and rice dish that includes layers of chicken, rice, and aromatics that are steamed togethe"
+    },
+    { 
+      "id": 11,
+      "foodPicture": "https://images.pexels.com/photos/1343504/pexels-photo-1343504.jpeg",
+      "foodName": "Ice-Cream",
+      "foodAvailability": true,
+      "foodCategory": [
+        "Dessert",
+        "Veg"
+      ],
+      "foodSize": {
+        "small": 299,
+        "medium": 500,
+        "large": 700
+      },"subscriptionCategory":["SILVER"],
+      "foodPrice": 90,
+      "foodDescription": "Chicken Biryani is a savory chicken and rice dish that includes layers of chicken, rice, and aromatics that are steamed togethe"
+    }
+  ]
+}
+
+
+

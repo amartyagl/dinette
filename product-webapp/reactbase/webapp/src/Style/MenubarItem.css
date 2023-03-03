@@ -1,0 +1,32 @@
+.menu-item {
+    color: #FFF5E4;
+    font-weight: bolder;
+    text-decoration: none;
+    width: 50%;
+}
+
+.menu-item:hover {
+    color: #850E35;
+}
+
+.menu-item:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.menu-item::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 10px;
+    left: 0;
+    background-color: #850E35;
+    transform-origin: bottom right;
+    transition: transform 0.50s ease-out;
+}
+
+.container-menu--item:not(:last-child) {
+    border-right: 2px solid #850E35;
+}

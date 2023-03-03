@@ -1,0 +1,13 @@
+.btn {
+    border: 2px solid #850E35;
+}
+
+.btn:hover {
+    background-color: #850E35;
+    border: 2px solid #850E35;
+    color: #FFF5E4;
+}
+
+.btn:active {
+    transform: translateY(3px);
+}

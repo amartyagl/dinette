@@ -1,0 +1,10 @@
+.country-state {
+    background-color: #FFF5E4;
+    color: rgba(133, 14, 53, 0.9);
+    border: 3px solid #850E35;
+    border-radius: 20px;
+    height: 5rem;
+    padding: 20px;
+    width: 100%;
+    /* margin-right: 2rem; */
+}

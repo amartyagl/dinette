@@ -1,0 +1,660 @@
+{
+  "WeeksName": [
+    {
+      "id": 1,
+      "Day": "Monday",
+      "weekDayImg": "https://i.postimg.cc/Fs4MBN2X/monday-transformed.jpg"
+    },
+    {
+      "id": 2,
+      "Day": "Tuesday",
+      "weekDayImg": "https://i.postimg.cc/Hsvt7t0v/tue1-transformed.jpg"
+    },
+    {
+      "id": 3,
+      "Day": "Wednessday",
+      "weekDayImg": "https://i.postimg.cc/5yyVNVM2/wed1-transformed.jpg"
+    },
+    {
+      "id": 4,
+      "Day": "Thursay",
+      "weekDayImg": "https://i.postimg.cc/WzZPJ7tB/Thursday-transformed.jpg"
+    },
+    {
+      "id": 5,
+      "Day": "Friday",
+      "weekDayImg": "https://i.postimg.cc/QxDzbDz9/fri1-transformed.jpg"
+    },
+    {
+      "id": 6,
+      "Day": "Saturday",
+      "weekDayImg": "https://i.postimg.cc/tgZWPQRY/sat1-transformed.jpg"
+    },
+    {
+      "id": 7,
+      "Day": "Sunday",
+      "weekDayImg": "https://i.postimg.cc/651dQLCW/sunday-transformed.jpg"
+    }
+  ],
+  "MenuService": [
+    {
+      "id": 1,
+      "foodPicture": "https://i.postimg.cc/L6fNQKSy/Subz-Vegetable-Biryani.jpg",
+      "foodName": "Veg Biryani",
+      "foodAvailability": "true",
+      "foodPrize": 20,
+      "foodCategory": [
+        "Rice",
+        "Biryani",
+        "Veg"
+      ],
+      "foodSize": {
+        "small": 299,
+        "medium": 500,
+        "large": 700
+      },
+      "foodDescription": "Veg Biryani is prepared vegitable,  and mixed with rice. It is served with boiled rice and is very popular in Northern and Western States of India"
+    },
+    {
+      "id": 3,
+      "foodPicture": "https://i.postimg.cc/j2ydmdZq/maxresdefault.jpg",
+      "foodName": "Daal Makhani",
+      "foodAvailability": "true",
+      "foodCategory": [
+        "Rice",
+        "Veg"
+      ],
+      "foodSize": {
+        "small": 299,
+        "medium": 500,
+        "large": 700
+      },
+      "foodPrize": 30,
+      "foodDescription": "Dal makhani (pronounced [daːl ˈmək.kʰə.ni]) is a dish originating in New Delhi, India. A relatively modern variation of traditional lentil dishes"
+    },
+    {
+      "id": 4,
+      "foodPicture": "https://i.postimg.cc/3xNQDxmy/photo.jpg",
+      "foodName": "Kadhi Chawal",
+      "foodAvailability": "false",
+      "foodCategory": [
+        "Rice",
+        "Veg"
+      ],
+      "foodSize": {
+        "small": 299,
+        "medium": 500,
+        "large": 700
+      },
+      "foodPrize": 10,
+      "foodDescription": "Kadhi is prepared by mixing Curd, Besan (Chickpea Flour) and different spices. It is served with boiled rice and is very popular in Northern and Western States of India"
+    },
+    {
+      "id": 5,
+      "foodPicture": "https://i.postimg.cc/B6shHmkh/photo-1.jpg",
+      "foodName": "Rajma Chawal",
+      "foodAvailability": "true",
+      "foodCategory": [
+        "Rice",
+        "Veg"
+      ],
+      "foodSize": {
+        "small": 299,
+        "medium": 500,
+        "large": 700
+      },
+      "foodPrize": 50,
+      "foodDescription": "Rajma chawal is a popular North Indian dish of red kidney beans (rajma in Hindi) simmered in a spicy, saucy stew filled with fragrant aromatics and spices. "
+    },
+    {
+      "id": 6,
+      "foodPicture": "https://i.postimg.cc/x8hyxqkx/f3.jpg",
+      "foodName": "Paratha",
+      "foodAvailability": "true",
+      "foodCategory": [
+        "Veg"
+      ],
+      "foodSize": {
+        "small": 299,
+        "medium": 500,
+        "large": 700
+      },
+      "foodPrize": 10,
+      "foodDescription": "Parathas are one of the most popular unleavened flatbreads in the Indian subcontinent,"
+    },
+    {
+      "id": 7,
+      "foodPicture": "https://i.postimg.cc/xdVgVsf0/Kadai-Paneer-Recipe-Restaurant-style.jpg",
+      "foodName": "Kadai Paneer",
+      "foodAvailability": "yes",
+      "foodCategory": [
+        "Paneer",
+        "Veg"
+      ],
+      "foodSize": {
+        "small": 299,
+        "medium": 500,
+        "large": 700
+      },
+      "foodPrize": 60,
+      "foodDescription": "Kadai paneer is made with kadai masala, bell peppers, tomatoes, kasuri methi & paneer"
+    },
+    {
+      "id": 2,
+      "foodPicture": "https://i.postimg.cc/ryHmp3vN/54308405.jpg",
+      "foodName": "Chicken Biryani",
+      "foodAvailability": "false",
+      "foodCategory": [
+        "Rice",
+        "Biryani",
+        "NonVeg"
+      ],
+      "foodPrize": 20,
+      "foodDescription": "Chicken Biryani is a savory chicken and rice dish that includes layers of chicken, rice, and aromatics that are steamed togethe"
+    }
+  ],
+  "TimeTable": [
+    {
+      "id": 1,
+      "emailId": "anoop.verma@gmail.com",
+      "name": "Anoop",
+      "menuItems": {
+        "Monday": [
+          {
+            "id": 3,
+            "foodPicture": "https://i.postimg.cc/j2ydmdZq/maxresdefault.jpg",
+            "foodName": "Daal Makhani",
+            "foodAvailability": "true",
+            "foodCategory": [
+              "Rice",
+              "Veg"
+            ],
+            "foodSize": {
+              "small": 299,
+              "medium": 500,
+              "large": 700
+            },
+            "foodPrize": 30,
+            "foodDescription": "Dal makhani (pronounced [daːl ˈmək.kʰə.ni]) is a dish originating in New Delhi, India. A relatively modern variation of traditional lentil dishes"
+          }
+        ],
+        "Tuesday": [
+          {
+            "id": 6,
+            "foodPicture": "https://i.postimg.cc/x8hyxqkx/f3.jpg",
+            "foodName": "Paratha",
+            "foodAvailability": "true",
+            "foodCategory": [
+              "Veg"
+            ],
+            "foodSize": {
+              "small": 299,
+              "medium": 500,
+              "large": 700
+            },
+            "foodPrize": 10,
+            "foodDescription": "Parathas are one of the most popular unleavened flatbreads in the Indian subcontinent,"
+          }
+        ],
+        "Wednessday": [
+          {
+            "id": 1,
+            "foodPicture": "https://i.postimg.cc/L6fNQKSy/Subz-Vegetable-Biryani.jpg",
+            "foodName": "Veg Biryani",
+            "foodAvailability": "true",
+            "foodPrize": 20,
+            "foodCategory": [
+              "Rice",
+              "Biryani",
+              "Veg"
+            ],
+            "foodSize": {
+              "small": 299,
+              "medium": 500,
+              "large": 700
+            },
+            "foodDescription": "Veg Biryani is prepared vegitable,  and mixed with rice. It is served with boiled rice and is very popular in Northern and Western States of India"
+          }
+        ],
+        "Thursay": [
+          {
+            "id": 3,
+            "foodPicture": "https://i.postimg.cc/j2ydmdZq/maxresdefault.jpg",
+            "foodName": "Daal Makhani",
+            "foodAvailability": "true",
+            "foodCategory": [
+              "Rice",
+              "Veg"
+            ],
+            "foodSize": {
+              "small": 299,
+              "medium": 500,
+              "large": 700
+            },
+            "foodPrize": 30,
+            "foodDescription": "Dal makhani (pronounced [daːl ˈmək.kʰə.ni]) is a dish originating in New Delhi, India. A relatively modern variation of traditional lentil dishes"
+          }
+        ],
+        "Friday": [
+          {
+            "id": 4,
+            "foodPicture": "https://i.postimg.cc/3xNQDxmy/photo.jpg",
+            "foodName": "Kadhi Chawal",
+            "foodAvailability": "false",
+            "foodCategory": [
+              "Rice",
+              "Veg"
+            ],
+            "foodSize": {
+              "small": 299,
+              "medium": 500,
+              "large": 700
+            },
+            "foodPrize": 10,
+            "foodDescription": "Kadhi is prepared by mixing Curd, Besan (Chickpea Flour) and different spices. It is served with boiled rice and is very popular in Northern and Western States of India"
+          }
+        ],
+        "Saturday": [
+          {
+            "id": 2,
+            "foodPicture": "https://i.postimg.cc/ryHmp3vN/54308405.jpg",
+            "foodName": "Chicken Biryani",
+            "foodAvailability": "false",
+            "foodCategory": [
+              "Rice",
+              "Biryani",
+              "NonVeg"
+            ],
+            "foodPrize": 20,
+            "foodDescription": "Chicken Biryani is a savory chicken and rice dish that includes layers of chicken, rice, and aromatics that are steamed togethe"
+          }
+        ],
+        "Sunday": [
+          {
+            "id": 7,
+            "foodPicture": "https://i.postimg.cc/xdVgVsf0/Kadai-Paneer-Recipe-Restaurant-style.jpg",
+            "foodName": "Kadai Paneer",
+            "foodAvailability": "yes",
+            "foodCategory": [
+              "Paneer",
+              "Veg"
+            ],
+            "foodSize": {
+              "small": 299,
+              "medium": 500,
+              "large": 700
+            },
+            "foodPrize": 60,
+            "foodDescription": "Kadai paneer is made with kadai masala, bell peppers, tomatoes, kasuri methi & paneer"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "emailId": "madhu.verma@gmail.com",
+      "name": "Madhu",
+      "menuItems": {
+        "Monday": [
+          {
+            "id": 1,
+            "foodPicture": "https://i.postimg.cc/L6fNQKSy/Subz-Vegetable-Biryani.jpg",
+            "foodName": "Veg Biryani",
+            "foodAvailability": "true",
+            "foodPrize": 20,
+            "foodCategory": [
+              "Rice",
+              "Biryani",
+              "Veg"
+            ],
+            "foodSize": {
+              "small": 299,
+              "medium": 500,
+              "large": 700
+            },
+            "foodDescription": "Veg Biryani is prepared vegitable,  and mixed with rice. It is served with boiled rice and is very popular in Northern and Western States of India"
+          },
+          {
+            "id": 2,
+            "foodPicture": "https://i.postimg.cc/L6fNQKSy/Subz-Vegetable-Biryani.jpg",
+            "foodName": "Veg Biryani",
+            "foodAvailability": "true",
+            "foodPrize": 20,
+            "foodCategory": [
+              "Rice",
+              "Biryani",
+              "Veg"
+            ],
+            "foodSize": {
+              "small": 299,
+              "medium": 500,
+              "large": 700
+            },
+            "foodDescription": "Veg Biryani is prepared vegitable,  and mixed with rice. It is served with boiled rice and is very popular in Northern and Western States of India"
+          }
+        ],
+        "Tuesday": [
+          {
+            "id": 2,
+            "foodPicture": "https://i.postimg.cc/L6fNQKSy/Subz-Vegetable-Biryani.jpg",
+            "foodName": "Veg Biryani",
+            "foodAvailability": "true",
+            "foodPrize": 20,
+            "foodCategory": [
+              "Rice",
+              "Biryani",
+              "Veg"
+            ],
+            "foodSize": {
+              "small": 299,
+              "medium": 500,
+              "large": 700
+            },
+            "foodDescription": "Veg Biryani is prepared vegitable,  and mixed with rice. It is served with boiled rice and is very popular in Northern and Western States of India"
+          }
+        ],
+        "Sunday": [
+          {
+            "id": 2,
+            "foodPicture": "https://i.postimg.cc/L6fNQKSy/Subz-Vegetable-Biryani.jpg",
+            "foodName": "Veg Biryani",
+            "foodAvailability": "true",
+            "foodPrize": 20,
+            "foodCategory": [
+              "Rice",
+              "Biryani",
+              "Veg"
+            ],
+            "foodSize": {
+              "small": 299,
+              "medium": 500,
+              "large": 700
+            },
+            "foodDescription": "Veg Biryani is prepared vegitable,  and mixed with rice. It is served with boiled rice and is very popular in Northern and Western States of India"
+          }
+        ]
+      }
+    }
+  ],
+  "Subscription": [
+    {
+      "subscriptionName": "SILVER",
+      "package": "PACKAGE",
+      "benefits": "Benefits",
+      "prize": 300,
+      "ul": {
+        "li1": "Order upto 3 items in a meal",
+        "li2": "One free delivery per week",
+        "li3": "Limited items to choose from",
+        "li4": "Limited offers and deals"
+      }
+    },
+    {
+      "subscriptionName": "GOLD",
+      "package": "PACKAGE",
+      "benefits": "Benefits",
+      "prize": 500,
+      "ul": {
+        "li1": "Order upto 4 items in a meal",
+        "li2": "Three free delivery per week",
+        "li3": "Limited items to choose fromAccess to premium dishes",
+        "li4": "Get weekly offers"
+      }
+    },
+    {
+      "subscriptionName": "PLATINUM",
+      "package": "PACKAGE",
+      "benefits": "Benefits",
+      "prize": 700,
+      "ul": {
+        "li1": "No limit on items",
+        "li2": "Free delivery",
+        "li3": "Access to premium dishes",
+        "li4": "Get multiple offers in a week"
+      }
+    }
+  ],
+  "subscriptionUserList": [
+    {
+      "subscriptionId": 102,
+      "emailId": "user@gmail.com",
+      "subscriptionName": "GOLD",
+      "subscriptionPrize": 500,
+      "purchaseDate": "21/09/2022",
+      "endDate": 1666344745368,
+      "subscriptionDescription": {
+        "li1": "Order upto 4 items in a meal",
+        "li2": "Three free delivery per week",
+        "li3": "Limited items to choose fromAccess to premium dishes",
+        "li4": "Get weekly offers"
+      },
+      "id": 1
+    },
+    {
+      "subscriptionId": 101,
+      "emailId": "user@gmail.com",
+      "subscriptionName": "SILVER",
+      "subscriptionPrize": 300,
+      "purchaseDate": "21/09/2022",
+      "endDate": 1666345125641,
+      "subscriptionDescription": {
+        "li1": "Order upto 3 items in a meal",
+        "li2": "One free delivery per week",
+        "li3": "Limited items to choose from",
+        "li4": "Limited offers and deals"
+      },
+      "id": 2
+    },
+    {
+      "subscriptionId": 101,
+      "emailId": "user@gmail.com",
+      "subscriptionName": "SILVER",
+      "subscriptionPrize": 300,
+      "purchaseDate": "21/09/2022",
+      "endDate": "21/10/2022",
+      "subscriptionDescription": {
+        "li1": "Order upto 3 items in a meal",
+        "li2": "One free delivery per week",
+        "li3": "Limited items to choose from",
+        "li4": "Limited offers and deals"
+      },
+      "id": 3
+    },
+    {
+      "subscriptionId": 102,
+      "emailId": "user@gmail.com",
+      "subscriptionName": "GOLD",
+      "subscriptionPrize": 500,
+      "purchaseDate": "21/09/2022",
+      "endDate": "21/10/2022",
+      "subscriptionDescription": {
+        "li1": "Order upto 4 items in a meal",
+        "li2": "Three free delivery per week",
+        "li3": "Limited items to choose fromAccess to premium dishes",
+        "li4": "Get weekly offers"
+      },
+      "id": 4
+    },
+    {
+      "subscriptionId": 103,
+      "emailId": "user@gmail.com",
+      "subscriptionName": "PLATINUM",
+      "subscriptionPrize": 700,
+      "purchaseDate": "21/09/2022",
+      "endDate": "21/10/2022",
+      "subscriptionDescription": {
+        "li1": "No limit on items",
+        "li2": "Free delivery",
+        "li3": "Access to premium dishes",
+        "li4": "Get multiple offers in a week"
+      },
+      "id": 5
+    },
+    {
+      "subscriptionId": 102,
+      "emailId": "user@gmail.com",
+      "firstName": "Anoop",
+      "subscriptionName": "GOLD",
+      "subscriptionPrize": 500,
+      "purchaseDate": "21/09/2022",
+      "endDate": "21/10/2022",
+      "subscriptionDescription": {
+        "li1": "Order upto 4 items in a meal",
+        "li2": "Three free delivery per week",
+        "li3": "Limited items to choose fromAccess to premium dishes",
+        "li4": "Get weekly offers"
+      },
+      "id": 6
+    },
+    {
+      "subscriptionId": 102,
+      "emailId": "user@gmail.com",
+      "firstName": "Anoop",
+      "subscriptionName": "GOLD",
+      "subscriptionPrize": 500,
+      "purchaseDate": "21/09/2022",
+      "endDate": "21/10/2022",
+      "subscriptionDescription": {
+        "li1": "Order upto 4 items in a meal",
+        "li2": "Three free delivery per week",
+        "li3": "Limited items to choose fromAccess to premium dishes",
+        "li4": "Get weekly offers"
+      },
+      "id": 7
+    },
+    {
+      "subscriptionId": 103,
+      "emailId": "user@gmail.com",
+      "firstName": "Anoop",
+      "subscriptionName": "PLATINUM",
+      "subscriptionPrize": 700,
+      "purchaseDate": "21/09/2022",
+      "endDate": "21/10/2022",
+      "subscriptionDescription": {
+        "li1": "No limit on items",
+        "li2": "Free delivery",
+        "li3": "Access to premium dishes",
+        "li4": "Get multiple offers in a week"
+      },
+      "id": 8
+    },
+    {
+      "subscriptionId": 101,
+      "emailId": "user@gmail.com",
+      "firstName": "Anoop",
+      "subscriptionName": "SILVER",
+      "subscriptionPrize": 300,
+      "purchaseDate": "21/09/2022",
+      "endDate": "21/10/2022",
+      "subscriptionDescription": {
+        "li1": "Order upto 3 items in a meal",
+        "li2": "One free delivery per week",
+        "li3": "Limited items to choose from",
+        "li4": "Limited offers and deals"
+      },
+      "id": 9
+    },
+    {
+      "subscriptionId": 102,
+      "emailId": "user@gmail.com",
+      "firstName": "Anoop",
+      "subscriptionName": "GOLD",
+      "subscriptionPrize": 500,
+      "purchaseDate": "21/09/2022",
+      "endDate": "21/10/2022",
+      "subscriptionDescription": {
+        "li1": "Order upto 4 items in a meal",
+        "li2": "Three free delivery per week",
+        "li3": "Limited items to choose fromAccess to premium dishes",
+        "li4": "Get weekly offers"
+      },
+      "id": 10
+    },
+    {
+      "subscriptionId": 101,
+      "emailId": "user@gmail.com",
+      "firstName": "Anoop",
+      "subscriptionName": "SILVER",
+      "subscriptionPrize": 300,
+      "purchaseDate": "21/09/2022",
+      "endDate": "21/10/2022",
+      "subscriptionDescription": {
+        "li1": "Order upto 3 items in a meal",
+        "li2": "One free delivery per week",
+        "li3": "Limited items to choose from",
+        "li4": "Limited offers and deals"
+      },
+      "id": 11
+    },
+    {
+      "subscriptionId": 101,
+      "emailId": "user@gmail.com",
+      "firstName": "Anoop",
+      "subscriptionName": "SILVER",
+      "subscriptionPrize": 300,
+      "purchaseDate": "21/09/2022",
+      "endDate": "21/10/2022",
+      "subscriptionDescription": {
+        "li1": "Order upto 3 items in a meal",
+        "li2": "One free delivery per week",
+        "li3": "Limited items to choose from",
+        "li4": "Limited offers and deals"
+      },
+      "id": 12
+    },
+    {
+      "subscriptionId": 101,
+      "emailId": "user@gmail.com",
+      "firstName": "Anoop",
+      "subscriptionName": "SILVER",
+      "subscriptionPrize": 300,
+      "purchaseDate": "21/09/2022",
+      "endDate": "21/10/2022",
+      "subscriptionDescription": {
+        "li1": "Order upto 3 items in a meal",
+        "li2": "One free delivery per week",
+        "li3": "Limited items to choose from",
+        "li4": "Limited offers and deals"
+      },
+      "id": 13
+    },
+    {
+      "subscriptionId": 101,
+      "emailId": "user@gmail.com",
+      "firstName": "Anoop",
+      "subscriptionName": "SILVER",
+      "subscriptionPrize": 300,
+      "purchaseDate": "21/09/2022",
+      "endDate": "21/10/2022",
+      "subscriptionDescription": {
+        "li1": "Order upto 3 items in a meal",
+        "li2": "One free delivery per week",
+        "li3": "Limited items to choose from",
+        "li4": "Limited offers and deals"
+      },
+      "id": 14
+    },
+    {
+      "subscriptionId": 101,
+      "emailId": "user@gmail.com",
+      "firstName": "Anoop",
+      "subscriptionName": "SILVER",
+      "subscriptionPrize": 300,
+      "purchaseDate": "21/09/2022",
+      "endDate": "21/10/2022",
+      "subscriptionDescription": "Order upto 3 items in a meal,One free delivery per week,Limited items to choose from,Limited offers and deals,",
+      "id": 15
+    },
+    {
+      "subscriptionId": 101,
+      "emailId": "user@gmail.com",
+      "firstName": "Anoop",
+      "subscriptionName": "SILVER",
+      "subscriptionPrize": 300,
+      "purchaseDate": "21/09/2022",
+      "endDate": "21/10/2022",
+      "subscriptionDescription": "Order upto 3 items in a meal, One free delivery per week, Limited items to choose from, Limited offers and deals",
+      "id": 16
+    }
+  ]
+}

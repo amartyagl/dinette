@@ -1,0 +1,14 @@
+.footer-container {
+    background-color: rgba(133, 14, 53, 0.7);
+    border: 3px solid rgb(133, 14, 53);
+    color: #FFF5E4;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li:before {
+    content: '✓';
+    font-weight: bolder;
+}

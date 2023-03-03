@@ -1,0 +1,19 @@
+.bi-cart2,
+.bi-person-circle {
+    color: #850E35;
+    font-size: 40px;
+}
+
+.user--timetable,
+.user--profile {
+    text-decoration: none;
+    color: #850E35;
+    list-style: none;
+    transition: ease-in;
+}
+
+.user--profile:hover,
+.user--timetable:hover {
+    color: #850E35;
+
+}

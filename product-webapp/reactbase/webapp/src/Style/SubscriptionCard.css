@@ -1,0 +1,33 @@
+.subscription-container {
+    background-image: linear-gradient(180deg, rgb(238, 105, 131), rgb(133, 14, 53));
+    border: 2px solid #850E35;
+    border-radius: 15px;
+    margin: auto;
+    width: 90%;
+    height: 300px;
+    color: #FFF5E4;
+}
+
+btn-subs--container {
+    width: 90%;
+    height: 200px;
+}
+
+.btn-subs {
+    background-color: #FFF5E4;
+    border: 2px solid #850E35;
+    border-radius: 5px;
+    padding: 25px;
+    width: inherit;
+    height: inherit;
+}
+
+.btn-subs:hover {
+    background-color: #850E35;
+    color: #FFF5E4;
+
+}
+
+.btn-subs:active {
+    transform: translateY(3px);
+}

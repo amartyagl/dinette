@@ -1,0 +1,152 @@
+version: "3"
+services:
+
+  mongodb:
+    image: mongo:latest
+    container_name: "mongodb"
+    ports:
+      - 27017:27017
+  
+  mysqldb:
+    image: mysql
+    container_name: "mysqldb"
+    ports:
+      - 3306:3306
+    environment:
+      - MYSQL_DATABASE=auth_db
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_PASSWORD=root
+      
+  rabbit-mq :
+     image: rabbitmq:3-management
+     container_name: "rabbit-mq"
+     ports:
+      - 5672:5672
+      - 15672:15672
+      
+  dinete-eureka_server:
+    build: eureka-server/
+    container_name: eureka-server
+    network_mode: host
+    ports:
+      - 8761:8761
+    restart: always  
+      
+  dinete-config_server:
+    build: ./config-server
+    container_name: "dinete-config_server"
+    network_mode: host
+    ports:
+      - 8888:8888  
+    depends_on:
+     - dinete-eureka_server
+    restart: always  
+      
+  dinete-api_gateway:
+    container_name: api-gateway
+    build: ./api-gateway
+    network_mode: host
+    ports:
+      - 8080:8080
+    depends_on:
+    - dinete-eureka_server
+    restart: always
+  
+  dinete-authentication_service:
+    build: ./authentication-service
+    container_name: "dinete-authentication_service"
+    network_mode: host
+    ports:
+      - 8082:8082
+    depends_on:
+      - mysqldb   
+      - dinete-eureka_server
+    restart: always
+  
+  dinete-user_service :
+    build: ./user-service
+    container_name: "dinete-user_service"
+    network_mode: host
+    ports:
+      - 8081:8081
+    depends_on: 
+      - mongodb
+      - rabbit-mq
+      - dinete-eureka_server
+    restart: always
+      
+  dinete-menu_service:
+    build: ./menu-service
+    container_name: "dinete-menu_service"
+    network_mode: host
+    ports:
+      - 9001:9001
+    depends_on: 
+      - mongodb
+      - dinete-eureka_server
+    restart: always  
+  
+  dinete-order_service :
+    build: ./order-service
+    container_name: "dinete-order_service"
+    network_mode: host
+    ports:
+      - 8087:8087
+    depends_on :
+      - mongodb
+      - rabbit-mq  
+      - dinete-eureka_server
+    restart: always
+     
+  dinete-payment_service:
+    build: ./payment-service
+    container_name: "dinete-payment_service"
+    network_mode: host
+    ports:
+      - 9002:9002
+    depends_on: 
+      - mongodb
+      - dinete-eureka_server
+    restart: always
+  
+  dinete-notification_service :
+     build: ./notification-service
+     container_name: "dinete-notification_service"
+     network_mode: host
+     ports:
+       - 8083:8083
+     depends_on:
+      - dinete-eureka_server
+     restart: always
+       
+  dinete-subscription_service :
+    build: ./subscription-service
+    container_name: "dinete-subscription_service"
+    network_mode: host
+    ports:
+      - 8086:8086
+    depends_on :
+      - mongodb  
+      - dinete-eureka_server
+    restart: always
+
+  dinete-product_webapp :
+    build: ./product-webapp
+    container_name: "dinete-product_webapp"
+    network_mode: host
+    ports:
+      - 4200:4200
+    depends_on :
+      - dinete-eureka_server
+    restart: always
+         
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

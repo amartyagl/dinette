@@ -1,0 +1,93 @@
+.contactUs_card,
+.connectUs_card 
+{
+  padding: 0.63rem;
+  margin: 2rem;
+  background-image: linear-gradient(180deg, rgba(238, 105, 131, 0.9), rgba(133, 14, 53, 0.9));
+  border: 2px solid #850e35 !important;
+}
+
+.contactUs_header {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.contactUs_title {
+  padding: 1rem;
+  font-weight: 700;
+}
+
+.contactUs_card label,
+.contactUs_title, .connectUs_label {
+  padding-bottom: 0;
+  color: #FFF5E4;
+}
+.connectUs_label{
+  font-size: 18px;
+}
+
+.contactUs_card textarea {
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid transparent;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+.contactUs_card textarea :focus {
+  border: none !important;
+  outline: 0;
+}
+.contactUs_card input {
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid transparent;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+.contactUs_card input:focus {
+  border: none;
+}
+
+.fieldBox {
+  margin-bottom: 1rem;
+}
+
+.sendBtn button {
+  float: right;
+}
+
+.socialIcon{
+  margin-top: 7rem;
+}
+
+/* .fa {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  padding: 17px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  margin-left: 20px;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+  margin-left: 20px;
+} */

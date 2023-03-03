@@ -1,0 +1,45 @@
+.top {
+    border: 1px solid #850E35;
+    height: 15rem;
+    object-fit: cover;
+}
+
+.card-container {
+    background-color: rgba(255, 196, 196, 0.5);
+}
+
+ul {
+    list-style: none;
+}
+
+ul li:before {
+    content: '✓';
+    font-weight: bolder;
+}
+
+#card-container--gold {
+    border-bottom: 5px solid gold;
+}
+
+#card-container--silver {
+    border-bottom: 5px solid #C0C0C0;
+}
+
+#card-container--platinum {
+    border-bottom: 5px solid #e5e4e2;
+}
+
+#top--gold {
+    /* background-image: linear-gradient(#FFC4C4, gold); */
+    background-color: black;
+}
+
+#top--silver {
+    /* background-image: linear-gradient(#FFC4C4, #C0C0C0); */
+    background-color: black;
+}
+
+#top--platinum {
+    /* background-image: linear-gradient(#FFC4C4, #e5e4e2); */
+    background-color: black;
+}

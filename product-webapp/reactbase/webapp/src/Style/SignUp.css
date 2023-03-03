@@ -1,0 +1,114 @@
+.signUpPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+}
+
+#signupForm {
+  background-image: linear-gradient(180deg, rgba(238, 105, 131, 0.9), rgba(133, 14, 53, 0.9));
+  min-width: 500px;
+  max-height: 100%;
+  width: 50%;
+  height: auto;
+  border-radius: 25px;
+  box-shadow: 2px 2px 5px grey;
+}
+
+#title {
+  text-align: center;
+  padding: 2rem 0;
+  margin: 0;
+  font-size: 2rem;
+  color: #FFF5E4 !important;
+  font-weight: 600;
+}
+
+.row-data input {
+  width: 80%;
+  box-sizing: border-box;
+  font-size: 1rem;
+  padding-left: 1rem;
+  box-shadow: inset 0px -3px 0px 0px rgba(187, 187, 187, 0.2);
+  transition: box-shadow 0.2s ease-in;
+  background: none;
+  border: none;
+  padding-bottom: 0.5rem;
+}
+
+.row-data input:hover {
+  border-bottom: 1px solid rgba(187, 187, 187, 0.9);
+  box-shadow: inset 0px -3px 0px 0px #850e35;
+  outline: none;
+}
+
+.row-data input::-webkit-input-placeholder {
+  opacity: 1;
+  font-size: 15px;
+  transition: opacity 0.25s ease-out;
+  color: rgba(255, 245, 228, 0.5);
+
+}
+
+.row-data input:hover::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+.row-data label {
+  align-self: start;
+  padding-left: 3.5rem;
+  padding-bottom: 0.5rem;
+  font-weight: 600;
+  color: #FFF5E4 !important;
+}
+
+.xpadding{
+  padding-left: 3rem !important;
+}
+
+#signupBtn{
+  text-align: center;
+}
+#signupBtn button {
+  border-radius: 25px;
+  width: 25%;
+  height: 40px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  background: #FFF5E4 !important;
+  color: #850e35;
+  border: 0px;
+  cursor: pointer;
+  transition: opacity 0.25s ease-out;
+}
+
+#signupBtn button:hover {
+  opacity: 0.8;
+}
+
+
+
+#haveAccount {
+  text-align: center;
+  padding: 0.5rem;
+  padding-bottom: 1.3rem;
+  font-size: 12px;
+  color: #FFF5E4 !important;
+}
+
+.linkTo {
+  text-decoration: underline;
+  color: black;
+  color: #FFF5E4 !important;
+}
+
+.reqMsg {
+  width: 100%;
+  padding-left: 3.5rem !important;
+  padding-top: 0;
+  font-size: 12px;
+}
+
+.fa-envelope :hover {
+  opacity: 0;
+}

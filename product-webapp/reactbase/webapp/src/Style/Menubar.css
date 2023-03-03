@@ -1,0 +1,6 @@
+.container-menubar {
+    border: 3px solid rgb(133, 14, 53);
+    border-radius: 10px;
+    background-color: rgba(133, 14, 53, 0.6);
+    height: 5rem;
+}

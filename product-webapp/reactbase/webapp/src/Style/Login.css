@@ -1,0 +1,142 @@
+.loginPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48.1vh;
+}
+
+#loginform {
+  background-image: linear-gradient(180deg, rgba(238, 105, 131, 0.9), rgba(133, 14, 53, 0.9));
+  max-width: 500px;
+  min-width: 300px;
+  max-height: 100%;
+  width: 30%;
+  height: auto;
+  border-radius: 25px;
+  box-shadow: 2px 2px 5px grey;
+
+}
+
+#headerTitle {
+  text-align: center;
+  padding: 2rem 0;
+  margin: 0;
+  font-size: 2rem;
+  color: #FFF5E4 !important;
+  font-weight: 600;
+}
+
+.row-data {
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column; */
+  align-items: center;
+  padding-top: 1rem;
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+
+.row-data input {
+  width: 80%;
+  box-sizing: border-box;
+  font-size: 1rem;
+  padding-left: 0.5rem;
+  box-shadow: inset 0px -3px 0px 0px rgba(187, 187, 187, 0.2);
+  transition: box-shadow 0.2s ease-in;
+  background: none;
+  border: none;
+  padding-bottom: 0.5rem;
+}
+
+.row-data input:focus {
+  border-bottom: 1px solid rgba(187, 187, 187, 0.9);
+  box-shadow: inset 0px -3px 0px 0px #850e35;
+  outline: none;
+}
+
+.row-data input::-webkit-input-placeholder {
+  opacity: 1;
+  transition: opacity 0.25s ease-out;
+  font-size: 15px;
+  color: rgba(255, 245, 228, 0.5);
+}
+
+.row-data input:hover::-webkit-input-placeholder,
+.row-data input:focus::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+.row-data label {
+  align-self: start;
+  padding-left: 3.5rem;
+  font-weight: 600;
+  padding-bottom: 0.5rem;
+  color: #FFF5E4 !important;
+}
+
+.row-data button {
+  border-radius: 25px;
+  width: 80%;
+  height: 40px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  border: 0px;
+  cursor: pointer;
+  transition: opacity 0.25s ease-out;
+  background: #FFF5E4 !important;
+  color: #850e35;
+
+}
+
+.row-data button:hover {
+  opacity: 0.8;
+}
+
+#button {
+  padding-bottom: 0.5rem;
+}
+
+#iconGroup {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem 5rem;
+}
+
+.social-icon {
+  width: 45px !important;
+  height: 45px !important;
+}
+
+.noUser {
+  text-align: center;
+  padding-top: 0;
+}
+
+#noAccount {
+  text-align: center;
+  padding: 0.5rem;
+  padding-bottom: 1.3rem;
+  font-size: 12px;
+  color: #FFF5E4 !important;
+}
+
+.linkTo {
+  text-decoration: underline;
+  color: black;
+  color: #FFF5E4 !important;
+}
+
+.errorMsg {
+  width: 100%;
+  padding-left: 3rem;
+  padding-top: 0;
+  font-size: 12px;
+}
+.formFieldIcon{
+  color: #FFF5E4 !important;
+}
+
+.fa-envelope :hover {
+  opacity: 0;
+  color: #FFF5E4 !important;
+}
